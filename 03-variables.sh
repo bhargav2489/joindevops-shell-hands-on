@@ -1,7 +1,6 @@
-#!/bin/bash
+PERSON1=John # no space around =
+PERSON2=Raheem
 
-Person1="Ramesh"
-Person2="Suresh"
-echo "$Person1:: Hi, $Person2. How are you?"
-echo "$Person2:: Hello $Person1. I am good. How about you?"
-echo "$Person1:: I am good too $Person2. Thanks for asking"
+echo "$PERSON1:: Hi, $PERSON2. How are you?"
+echo "$PERSON2:: Hello $PERSON1. I am good. How about you?"
+echo "$PERSON1:: I am good too $PERSON2. Thanks for asking"
