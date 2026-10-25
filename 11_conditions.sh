@@ -8,7 +8,7 @@ if [ $user_id -ne 0 ]; then
 fi
 
 echo "proceeding...."
-dnf install nginx -y
+apt install nginx -y
 
 if [ $? -ne 0 ]; then
     echo "Nginx installation is failed"
@@ -17,7 +17,7 @@ else
     echo "Nginx installation is success"
 fi
 
-dnf install mysql -y
+apt install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "mysql client installation is failed"
