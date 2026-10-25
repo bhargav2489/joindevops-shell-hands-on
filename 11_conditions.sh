@@ -2,3 +2,7 @@
 
 user_id=$(id -u)
 echo $user_id
+if [ $user_id -ne 0 ]; then
+    echo "Please run this script with sudo access.."
+    #exit 1
+fi
